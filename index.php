@@ -78,7 +78,7 @@ $datos = getdata();
 
 
    <form action="captura.php" method="POST">
-    <input type="number"   name="numero"  placeholder="cantidad" min="0" max="200">
+    <input type="number"   name="numero"  placeholder="cantidad" min="0" max="100">
     <input type="submit"  name="enviar" value="enviar">
    </form>
   
