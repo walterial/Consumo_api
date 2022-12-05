@@ -84,7 +84,7 @@ if(isset($_POST['enviar'])){
 
 
    <form action="captura.php" method="POST">
-    <input type="number"  name="numero">
+    <input type="number"  name="numero"  placeholder="cantidad" min="0" max="200">
     <input type="submit"  name="enviar" value="enviar">
    </form>
   
