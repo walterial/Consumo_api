@@ -47,6 +47,7 @@ $datos = getdata();
 
 
 
+
 <table class="table table-hover table-primary text-center  ">
   <thead class="table-dark">
     <tr class=""> 
@@ -60,7 +61,12 @@ $datos = getdata();
    <tbody>
  
    <?php 
-    $count= 10;
+
+if(isset($_POST['enviar'])){
+    $n = $_POST['numero'];
+
+}
+    $count= $n;
     for($i=0; $i< $count;$i++){  ?>
 
    <tr>
