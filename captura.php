@@ -69,7 +69,7 @@ if(isset($_POST['enviar'])){
     $count= $n;
     for($i=0; $i< $count;$i++){  ?>
 
-   <tr>
+<tr>
     <td scope="row"><?php echo $i+1 ?></td>
     <td><?php echo $datos['collection']['items'][$i]['data'][0]['title'];?></td>
     <td><?php echo $datos['collection']['items'][$i]['data'][0]['description'] ;?></td>
